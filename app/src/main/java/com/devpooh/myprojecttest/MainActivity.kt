@@ -19,4 +19,13 @@ class MainActivity : AppCompatActivity() {
             Log.d("SoureTree", "버튼클릭1")
         }
     }
+
+    override fun onRestart() {
+        super.onRestart()
+        Log.d("SoureTree", "생성완료")
+    }
+    override fun onResume() {
+        super.onResume()
+        Log.d("SoureTree", "생성완료")
+    }
 }
